@@ -1,0 +1,5 @@
+<div class="container" *ngFor="let task of tasks; index as i">
+    <ul>
+        <app-task [task]="task.task" [num]="i"></app-task>
+    </ul>
+</div>

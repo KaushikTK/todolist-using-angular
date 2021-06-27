@@ -1,0 +1,5 @@
+<div class="container">
+ <app-header [title]="heading"></app-header>
+ <app-tasks [tasks]="tasks"></app-tasks>
+ <app-add-task (AddItemEventEmitter)="AddItem($event)"></app-add-task>
+</div>
